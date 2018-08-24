@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.user.mother.CustomerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        >
+
+
+        <!--상단바-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:id="@+id/nameTag"
+            />
+
+
+
+        <!--    <ImageButton
+                android:id="@+id/settingButton"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/setting_button"
+                android:layout_weight="2"
+                />
+    -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+
+
+
+        <!--오늘해야할일-->
+        <ImageButton
+            android:id="@+id/todayButton"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#ffffff"
+            app:srcCompat="@drawable/ic_review" />
+
+
+        <!--버튼4개-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+
+
+                <ImageButton
+                    android:id="@+id/schduelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#ffffff"
+                    app:srcCompat="@drawable/ic_timetable" />
+
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    />
+                <ImageButton
+                    android:id="@+id/calandarButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/schduelButton"
+                    android:background="#ffffff"
+                    app:srcCompat="@drawable/ic_calendar" />
+
+
+
+            </LinearLayout>
+
+
+            <!--가로선-->
+            <View
+                android:layout_width="285dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:background="#000000"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageButton
+                    android:id="@+id/timmerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#ffffff"
+                    app:srcCompat="@drawable/ic_stopwatch" />
+
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    />
+
+                <ImageButton
+                    android:id="@+id/libraryButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/timmerButton"
+                    android:background="#ffffff"
+                    app:srcCompat="@drawable/ic_library" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

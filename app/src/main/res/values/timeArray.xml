@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="timeArray">
+        <item>Mon1</item>
+        <item>Mon2</item>
+        <item>Mon3</item>
+        <item>Mon4</item>
+        <item>Mon5</item>
+        <item>Mon6</item>
+        <item>Mon7</item>
+        <item>Mon8</item>
+        <item>Mon9</item>
+        <item>Mon10</item>
+
+
+        <item>Tue1</item>
+        <item>Tue2</item>
+        <item>Tue3</item>
+        <item>Tue4</item>
+        <item>Tue5</item>
+        <item>Tue6</item>
+        <item>Tue7</item>
+        <item>Tue8</item>
+        <item>Tue9</item>
+        <item>Tue10</item>
+
+
+        <item>Wed1</item>
+        <item>Wed2</item>
+        <item>Wed3</item>
+        <item>Wed4</item>
+        <item>Wed5</item>
+        <item>Wed6</item>
+        <item>Wed7</item>
+        <item>Wed8</item>
+        <item>Wed9</item>
+        <item>Wed10</item>
+
+
+        <item>Thur1</item>
+        <item>Thur2</item>
+        <item>Thur3</item>
+        <item>Thur4</item>
+        <item>Thur5</item>
+        <item>Thur6</item>
+        <item>Thur7</item>
+        <item>Thur8</item>
+        <item>Thur9</item>
+        <item>Thur10</item>
+
+        <item>Fri1</item>
+        <item>Fri2</item>
+        <item>Fri3</item>
+        <item>Fri4</item>
+        <item>Fri5</item>
+        <item>Fri6</item>
+        <item>Fri7</item>
+        <item>Fri8</item>
+        <item>Fri9</item>
+        <item>Fri10</item>
+
+
+
+
+
+    </string-array>
+
+
+
+</resources>
